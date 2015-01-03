@@ -84,9 +84,6 @@ TARGET_RECOVERY_PIXEL_FORMAT 	:= "RGBX_8888"
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
 #TARGET_RECOVERY_INITRC := device/xiaomi/dior/recovery/init.rc
 
-#TWRP config
-TW_CUSTOM_THEME := device/xiaomi/dior/recovery/res
-
 DEVICE_RESOLUTION := 720x1280
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TW_FLASH_FROM_STORAGE := true
