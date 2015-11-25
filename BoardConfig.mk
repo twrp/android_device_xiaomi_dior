@@ -71,17 +71,16 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/
 # Flags
 COMMON_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD
 
-# Revcovery
+# Recovery
 BOARD_HAS_NO_SELECT_BUTTON  := true
 BOARD_SUPPRESS_EMMC_WIPE    := true
 BOARD_HAS_LARGE_FILESYSTEM  := true
 TARGET_USERIMAGES_USE_EXT4  := true
 
 BOARD_RECOVERY_SWIPE := true
-RECOVERY_FSTAB_VERSION = 2
+RECOVERY_FSTAB_VERSION := 2
 TARGET_RECOVERY_FSTAB 	:= device/xiaomi/dior/recovery/twrp.fstab
 TARGET_RECOVERY_PIXEL_FORMAT 	:= "RGBX_8888"
-BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
 #TARGET_RECOVERY_INITRC := device/xiaomi/dior/recovery/init.rc
 
 #TWRP config
